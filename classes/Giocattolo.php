@@ -1,11 +1,12 @@
 <?php
 include_once __DIR__ . '/Prodotto.php';
+include_once __DIR__ . '/Materiale.php';
 
 class Giocattolo extends Prodotto
 {
     public $brand;
     public $description;
-    public $material;
+    use Material;
 
     public function __construct(string $prodName, int $prodId, float $prodPrice, string $prodCat, string $brand, string $description, string $material)
     {

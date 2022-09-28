@@ -49,5 +49,13 @@ foreach($chart as $key=>$value){
 
     <h4>Spesa totale: <?= $sum ?>€</h4>
 
+    <?php
+        try{
+            $food4 = new Cibo("Cibo per cani al pollo", 158, 24.99, "Cibo per animali","Almo Nature", "Crocchette di pollo", 15, 2020);
+        } catch(Exception $e){
+            echo $e->getMessage();
+        }
+        ?>
+
 </body>
 </html>

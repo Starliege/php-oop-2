@@ -17,7 +17,7 @@ $users = [
 
 $products = [
    
-    new Cibo("Cibo per cani al riso", 151, 13.29, "Cibo per animali","Yummers", "Crocchette di riso", 15),
+    new Cibo("Cibo per cani al riso", 151, 13.29, "Cibo per animali","Yummers", "Crocchette di riso", 15, 2022),
     
     new Giocattolo("Gioco letale per mastini", 482, 69.29, "Giochi per animali", "Lethal200", "Morte da masticare", "Letale"),
 
@@ -26,7 +26,7 @@ $products = [
 ];
 
 $chart = [
-    new Cibo("Cibo per cani al riso", 151, 13.29, "Cibo per animali","Yummers", "Crocchette di riso", 15),
+    new Cibo("Cibo per cani al riso", 151, 13.29, "Cibo per animali","Yummers", "Crocchette di riso", 15, 2022),
     new Giocattolo("Gioco letale per mastini", 482, 69.29, "Giochi per animali", "Lethal200", "Morte da masticare", "Letale"),
     new Accessorio("Collare per dinosauri", 897, 12.59, "Accessori per animali", "Dinoboy3000", "Collare per cani", "pelle", "nero"),
 ];
